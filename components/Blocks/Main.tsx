@@ -1,5 +1,8 @@
+'use client'
+
 import React from 'react'
 import Button from '../UI/Button'
+import { BiSolidChevronRight } from 'react-icons/bi'
 
 const Main = () => {
   return (
@@ -14,7 +17,7 @@ const Main = () => {
                     Hello! I am Web Developer from United States, New York. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
                 </p>
                 <div className='pt-5'>
-                    <Button label='Contact Me' />
+                    <Button label='Contact Me' rightIcon={BiSolidChevronRight} />
                 </div>
             </div>
         </div>

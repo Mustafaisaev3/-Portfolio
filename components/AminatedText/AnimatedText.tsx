@@ -5,7 +5,8 @@ import AnimatedLetter from './AnimatedLetter'
 
 type AnimatedTextType = {
     text: string,
-    animationDuration?: number
+    animationDuration?: number,
+    active?: boolean
 }
 
 type AnimatedWordType = {
@@ -29,7 +30,7 @@ const AnimatedWord: React.FC<AnimatedWordType> = ({ word, hover, delay }) => {
     )
 }
 
-const AnimatedText: React.FC<AnimatedTextType> = ({ text, animationDuration = 0.5 }) => {
+const AnimatedText: React.FC<AnimatedTextType> = ({ text, animationDuration = 0.5, active }) => {
   const wordsArr = text.split(' ')
   const [hover, setHover] = useState(false)
   let delay = 0.0
@@ -40,7 +41,7 @@ const AnimatedText: React.FC<AnimatedTextType> = ({ text, animationDuration = 0.
             {wordsArr.map((word) => {
                 return (
                     <>
-                        <AnimatedWord word={word} hover={hover} delay={delay} />&nbsp;
+                        <AnimatedWord word={word} hover={active ? active : hover} delay={delay} />&nbsp;
                     </>
                 )
             })}

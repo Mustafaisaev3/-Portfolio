@@ -1,4 +1,4 @@
-import Main from "@/components/Blocks/Main";
+import Main from "@/components/Blocks/Main"
 
 export default function Home() {
   return (
