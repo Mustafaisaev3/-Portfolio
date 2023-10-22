@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Header from '@/components/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='w-full h-screen'>
+      <body className='w-full h-screen bg-[#373b40]'>
+        <Header />
+        <div className='w-[45%] h-full fixed top-0 left-0'>
+          <img className='w-full h-full object-cover' src="https://myour.bslthemes.com/wp-content/uploads/2020/06/man.jpg" alt="my-photo" />
+          <span className='w-full h-full absolute top-0 left-0 bg-[#258c7ec4] mix-blend-hard-light'></span>
+        </div>
         {children}
       </body>
     </html>
