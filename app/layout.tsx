@@ -18,11 +18,13 @@ export default function RootLayout({
     <html lang="en">
       <body className='w-full h-screen bg-[#373b40]'>
         <Header />
-        <div className='w-[45%] h-full fixed top-0 left-0'>
+        <div className='w-[45%] h-full fixed top-0 left-0 z-10'>
           <img className='w-full h-full object-cover' src="https://myour.bslthemes.com/wp-content/uploads/2020/06/man.jpg" alt="my-photo" />
           <span className='w-full h-full absolute top-0 left-0 bg-[#258c7ec4] mix-blend-hard-light'></span>
         </div>
-        {children}
+        <div className='w-auto h-full ml-[45%] z-20 '>
+          {children}
+        </div>
       </body>
     </html>
   )
