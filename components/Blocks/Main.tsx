@@ -13,7 +13,7 @@ const Main = () => {
             </div>
             <div className='mt-[125px]'>
                 <div className='text-[#68e0cf] text-lg font-semibold'>Front-End Developer</div>
-                <p className='w-[50%] pt-5 text-[#ffffff]'>
+                <p className='w-[60%] pt-5 text-[#ffffff]'>
                     Hello! I am Web Developer from United States, New York. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
                 </p>
                 <div className='pt-5'>

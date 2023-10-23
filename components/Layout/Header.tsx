@@ -1,6 +1,6 @@
 import React from 'react'
-import CVButton from './CVButton'
-import Menu from './Navigation/Menu'
+import CVButton from '../CVButton'
+import Menu from '../Navigation/Menu'
 
 const Header = () => {
   return (
