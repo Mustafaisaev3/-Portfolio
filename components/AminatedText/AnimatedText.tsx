@@ -38,10 +38,10 @@ const AnimatedText: React.FC<AnimatedTextType> = ({ text, animationDuration = 0.
   return (
     <div className='w-auto h-auto flex items-center cursor-pointer' onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
         <div className='relative h-[20px] flex overflow-hidden'>
-            {wordsArr.map((word) => {
+            {wordsArr.map((word, id) => {
                 return (
                     <>
-                        <AnimatedWord word={word} hover={active ? active : hover} delay={delay} />&nbsp;
+                        <AnimatedWord word={word} hover={active ? active : hover} delay={delay} key={id} />&nbsp;
                     </>
                 )
             })}
