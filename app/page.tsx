@@ -1,6 +1,7 @@
 import About from "@/components/Blocks/About"
 import Main from "@/components/Blocks/Main"
 import CodingSkills from "@/components/Blocks/CodingSkills"
+import LanguageSkills from "@/components/Blocks/LanguageSkills"
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Main />
       <About />
       <CodingSkills />
+      <LanguageSkills />
     </div>
   )
 }

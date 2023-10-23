@@ -8,7 +8,9 @@ const Menu = () => {
         <MenuItem label='Home' />
         <MenuItem label='Resume' />
         <MenuItem label='About' />
+        <MenuItem label='Skills' />
         <MenuItem label='Portfolio' />
+        <MenuItem label='Language' />
         <MenuItem label='Contacts' />
     </div>
   )
