@@ -14,7 +14,8 @@ const Main = () => {
             <div className='mt-[125px]'>
                 <div className='text-[#68e0cf] text-lg font-semibold'>Front-End Developer</div>
                 <p className='w-[60%] pt-5 text-[#ffffff]'>
-                    Hello! I am Web Developer from United States, New York. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
+                    Привет! Меня зовут Мустафа. Я Junior Front-End Developer. Буду рад работать и развиваться вместе с Вами!
+                    {/* Hello! I am Web Developer from United States, New York. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique. */}
                 </p>
                 <div className='pt-5'>
                     <Button label='Contact Me' rightIcon={BiSolidChevronRight} />

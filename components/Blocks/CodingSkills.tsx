@@ -11,7 +11,7 @@ import { TbPackages } from 'react-icons/tb'
 const CodingSkills = () => {
   return (
     <div className='px-[8%] py-[70px] border-t-[1px] border-[#585d65]' id='skills'>
-        <BlockTitle title='Coding Skills' subtitle='Developing With' />
+        <BlockTitle title='Навыки' subtitle='Developing With' />
         <div className='w-full h-auto grid grid-cols-3 gap-x-3 gap-y-10'>
             <div className='flex flex-col'>
                 <SkillIcon icon={AiFillHtml5} />
