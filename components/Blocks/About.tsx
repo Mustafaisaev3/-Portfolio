@@ -3,7 +3,7 @@ import BlockTitle from '../BlockTitle'
 
 const About = () => {
   return (
-    <div className='px-[8%] py-[70px] border-t-[1px] border-[#585d65]'>
+    <div className='px-[8%] py-[70px] border-t-[1px] border-[#585d65]' id='about'>
         <BlockTitle title='About Me' subtitle='My story' />
         <p className='text-[#ffffff] mb-[30px]'> 
             Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.

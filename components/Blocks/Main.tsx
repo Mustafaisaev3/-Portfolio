@@ -6,7 +6,7 @@ import { BiSolidChevronRight } from 'react-icons/bi'
 
 const Main = () => {
   return (
-    <div className='w-full h-screen flex items-center'>
+    <div className='w-full h-screen flex items-center' id='main'>
         <div className='w-full h-auto relative p-[30px] mt-[250px]'>
             <div className='w-full h-[250px] flex items-center absolute top-[-125px] left-[-130px] rounded-[300px] bg-[#373b40] z-10'>
                 <span className='pl-[50px] text-[#ffffff] text-[40px] font-bold leading-[50px]'>Мустафа <br /> Исаев</span> 
