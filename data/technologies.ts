@@ -2,26 +2,31 @@
 export const TechnologiesData = [
     {
         id: 1,
+        label: 'All',
+        value: 'all'
+    },
+    {
+        id: 2,
         label: 'React',
         value: 'react'
     },
     {
-        id: 2,
+        id: 3,
         label: 'Next.js',
         value: 'next'
     },
     {
-        id: 3,
+        id: 4,
         label: 'Vue',
         value: 'vue'
     },
     {
-        id: 4,
+        id: 5,
         label: 'Nuxt',
         value: 'nuxt'
     },
     {
-        id: 5,
+        id: 6,
         label: 'Node.js',
         value: 'node'
     },

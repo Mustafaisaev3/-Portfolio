@@ -19,7 +19,7 @@ export const WorkExamples = [
             'https://res.cloudinary.com/dmsxzw5rd/image/upload/v1698231595/nike-shoes-ecommerce/nike-shoes3_os9f8n.png',
             'https://res.cloudinary.com/dmsxzw5rd/image/upload/v1698231595/nike-shoes-ecommerce/nike-shoes2_pasx3y.png'
         ],
-        description: '',
+        description: 'Agmhgchmgsd sdjfg sjdjhv sdffj,hsa fdjsj hf sj,dfh sdj,fh fjjshdf  hsdjkfh sdyhgflisdfh jsflishdf jkh ',
         link: 'https://shoes-ecommerce-with-next13-sass-redux-toolkit-1ned.vercel.app/products/64f1eedcb4ece7e1175b2b6a',
     },
     {

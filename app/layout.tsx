@@ -1,8 +1,16 @@
+import dynamic from 'next/dynamic'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Header from '@/components/Layout/Header'
 import Sidebar from '@/components/Layout/Sidebar'
 import Avatar from '@/components/Layout/Avatar'
+import { ManagedUIContext } from '@/context/ui.context'
+// import ManagedModal from '@/components/UI/modal/managed-modal'
+
+const ManagedModal = dynamic(
+  () => import('@/components/UI/modal/managed-modal'),
+{ssr: false}
+);
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,12 +27,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className='w-full h-screen bg-[#373b40]'>
-        <Header />
-        <Avatar />
-        <div className='w-auto h-full ml-[45%] mr-[100px] z-20 '>
-          {children}
-        </div>
-        <Sidebar />
+        <ManagedUIContext>
+          <Header />
+          <Avatar />
+          <div className='w-auto h-full ml-[45%] mr-[100px] z-20 '>
+            {children}
+          </div>
+          <Sidebar />
+          <ManagedModal />
+        </ManagedUIContext>
       </body>
     </html>
   )

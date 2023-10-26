@@ -11,9 +11,13 @@ const PortfolioContent = () => {
   const [filteredWorkExamples, setFilteredWorkExamples] = useState(WorkExamples)
 
   useEffect(() => {
-    setFilteredWorkExamples(WorkExamples.filter(item => {
-        return item.category === activeTab
-    }))
+    if(activeTab === 'all') {
+        setFilteredWorkExamples(WorkExamples)
+    } else {
+        setFilteredWorkExamples(WorkExamples.filter(item => {
+            return item.category === activeTab
+        }))
+    }
   }, [activeTab])
 
   return (
