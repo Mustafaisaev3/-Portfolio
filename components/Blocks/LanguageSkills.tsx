@@ -3,7 +3,7 @@ import BlockTitle from '../BlockTitle'
 
 const LanguageSkills = () => {
   return (
-    <div className='px-[8%] py-[70px] border-t-[1px] border-[#585d65]' id='languages'>
+    <div className='px-[8%] py-[70px] pt-[30px] md:pt-[50px] lg:pt-[70px] border-t-[1px] border-[#585d65]' id='languages'>
         <BlockTitle title='Знания языков' subtitle='Reading and writing' />
         <div className='w-full h-auto grid grid-cols-2 gap-x-10 gap-y-[50px]'>
             <div className='card w-full h-auto'>

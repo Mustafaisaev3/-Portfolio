@@ -4,7 +4,7 @@ import MenuItem from './MenuItem'
 
 const Menu = () => {
   return (
-    <div className='w-full h-full flex items-center gap-5'>
+    <div className='w-full h-full flex items-center gap-3 xl:gap-5'>
         <MenuItem label='Главная' id='main' />
         <MenuItem label='Обо мне' id='about' />
         <MenuItem label='Навыки' id='skills' />

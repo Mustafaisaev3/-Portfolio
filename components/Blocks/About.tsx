@@ -3,9 +3,9 @@ import BlockTitle from '../BlockTitle'
 
 const About = () => {
   return (
-    <div className='px-[8%] py-[70px] border-t-[1px] border-[#585d65]' id='about'>
+    <div className='px-[8%] py-[30px] md:py-[50px] lg:py-[70px] border-t-[1px] border-[#585d65]' id='about'>
         <BlockTitle title='Обо мне' subtitle='My history' />
-        <p className='text-[#ffffff] mb-[30px]'> 
+        <div className='text-[#ffffff] mb-[30px]'> 
             Меня зовут Мустафа. Мне 26 лет. Я начинающий фронтенд-разработчик.
             <br/>
             <br/>
@@ -21,16 +21,16 @@ const About = () => {
             Также есть комерческий опыт разработки фриланс проектов:
             <br/>
             <p className="ml-[50px]">
-                Интернет-магазин светильников - <a href='https://monoled.com.ua/' className='text-[#68e0cf]'>Monoled</a>
+                Интернет-магазин светильников - <a href='https://monoled.com.ua/' target="_blank" className='text-[#68e0cf]'>Monoled</a>
             </p>
             <p className="ml-[50px]">
-                Интернет-магазин мебели - <a href='https://melitmebel.com.ua/' className='text-[#68e0cf]'>Melitmebel</a>
+                Интернет-магазин мебели - <a href='https://melitmebel.com.ua/' target="_blank" className='text-[#68e0cf]'>Melitmebel</a>
             </p>
             <br/>
             Фронтенд-разработка является для меня не просто работой, а тем что приносит мне удовольствие и возможнойтть реализовать себя.
             Стремлюсь стать частью дружной и профессиональной команды, в которой я мог бы развивать свои навыки разработки и достигать с ней большх результатов.
-        </p>
-        <div className='w-full h-auto grid grid-cols-2 gap-1'>
+        </div>
+        <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-1'>
             <div className='w-full'>
                 <span className='w-[90px] text-[#68e0cf] text-[14px] font-bold uppercase inline-block'>AGE:</span>
                 <span className='text-[#ffffff] text-[14px] font-bold'>26</span>

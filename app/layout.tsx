@@ -9,7 +9,7 @@ import { ManagedUIContext } from '@/context/ui.context'
 
 const ManagedModal = dynamic(
   () => import('@/components/UI/modal/managed-modal'),
-{ssr: false}
+  {ssr: false}
 );
 
 const inter = Inter({ subsets: ['latin'] })
@@ -30,7 +30,7 @@ export default function RootLayout({
         <ManagedUIContext>
           <Header />
           <Avatar />
-          <div className='w-auto h-full ml-[45%] mr-[100px] z-20 '>
+          <div className='w-auto h-auto lg:h-full lg:ml-[45%] lg:mr-[100px] z-20 '>
             {children}
           </div>
           <Sidebar />

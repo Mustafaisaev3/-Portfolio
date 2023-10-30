@@ -7,7 +7,7 @@ import Potrfolio from "@/components/Blocks/Potrfolio"
 
 export default function Home() {
   return (
-    <div className='h-full'>
+    <div className='h-auto lg:h-full'>
       <Main />
       <About />
       <CodingSkills />
