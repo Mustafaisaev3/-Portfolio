@@ -10,7 +10,6 @@ const Header = () => {
   const [changeColor, setChangeColor] = useState(false)
 
   const onChangeColor = () => {
-    console.log(changeColor)
     if(window.scrollY >= 80) {
       setChangeColor(true)
     } else {
@@ -38,15 +37,15 @@ const Header = () => {
       transition-all
       duration-[1s]
       
-      md:bg-transparent
-      md:h-auto
-      md:top-[40px]
-      md:left-[50px]
-      md:right-[50px] 
+      lg:bg-transparent
+      lg:h-auto
+      lg:top-[40px]
+      lg:left-[50px]
+      lg:right-[50px] 
 
       ${activeMobileMenu ? 'h-screen bg-[#585d65]' : 'h-[80px]'}
     `}
-    style={{backgroundColor: `${changeColor ? '#585d65' : 'transparent'}`}}
+    style={{backgroundColor: `${changeColor || activeMobileMenu  ? '#585d65' : 'transparent'}`}}
     >
       <div className={`
         h-[80px] 
@@ -59,22 +58,22 @@ const Header = () => {
         relative
         bg-[#585d65]
         
-        md:bg-[#585d65] 
-        md:rounded-[85px]
+        lg:bg-[#585d65] 
+        lg:rounded-[85px]
         
         transition-all
         duration-[1s]
       `}
       
       >
-          <div className='w-full h-full md:w-auto flex justify-between items-center '>
-            <div className='h-full md:pl-[40px] flex items-center text-[20px] font-bold text-[#ffffff] leading-6'>
+          <div className='w-full h-full lg:w-auto flex justify-between items-center '>
+            <div className='h-full lg:pl-[40px] flex items-center text-[20px] font-bold text-[#ffffff] leading-6'>
                 Мустафа<br />Исаев
             </div>
             <MenuBtn active={activeMobileMenu} onClick={() => setActiveMobileMenu(!activeMobileMenu)} />
           </div>
-          <div className='w-full h-[calc(100vh-80px)] md:h-full flex flex-col md:flex-row items-center bg-[#585d65] absolute top-[100%] left-0 md:w-auto md:static overflow-hidden transition-all duration-[1s]'>
-              <Menu />
+          <div className='w-full h-[calc(100vh-80px)] lg:h-full lg:rounded-md flex flex-col lg:flex-row items-center bg-[#585d65] absolute top-[100%] left-0 lg:w-auto lg:static overflow-hidden transition-all duration-[1s]'>
+              <Menu closeMenu={() => setActiveMobileMenu(false)} />
               <CVButton />
           </div>
       </div>

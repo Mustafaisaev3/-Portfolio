@@ -8,7 +8,7 @@ type MenuBtnType = {
 
 const MenuBtn: React.FC<MenuBtnType> = ({ active, onClick }) => {
   return (
-    <div className='block md:hidden p-4 rounded-full border border-[#ffffff]' onClick={() => onClick()}>
+    <div className='block lg:hidden p-4 rounded-full border border-[#ffffff]' onClick={() => onClick()}>
         {active ? (
             <IoMdClose size={30} color={'white'} />
         ) : (
