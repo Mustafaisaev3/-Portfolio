@@ -37,4 +37,27 @@ export const WorkExamples = [
         description: '',
         link: 'https://darling-ganache-c3978a.netlify.app/',
     },
+    {
+        id: 3,
+        title: 'Food POS',
+        technology: 'Nuxt 3, Shadcn, Typescript',
+        category: 'nuxt',
+        images: [
+            'https://res.cloudinary.com/dmsxzw5rd/image/upload/v1704261895/food-pos_j6b22n.jpg',
+            'https://res.cloudinary.com/dmsxzw5rd/image/upload/v1704261895/food-pos2_d1pksw.jpg',
+        ],
+        description: '',
+        link: 'https://glowing-cuchufli-cc78cf.netlify.app/',
+    },
+    {
+        id: 4,
+        title: 'File Sharing App',
+        technology: 'Next.js, Firebase, Typescript, Clerk',
+        category: 'next',
+        images: [
+            'https://res.cloudinary.com/dmsxzw5rd/image/upload/v1704262160/kachalka-file-sharing-app.vercel.app__g5jv1b.png',
+        ],
+        description: '',
+        link: 'https://kachalka-file-sharing-app.vercel.app/',
+    },
 ]
