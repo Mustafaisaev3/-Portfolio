@@ -11,7 +11,7 @@ const Contact = () => {
             <div className='pt-[50px]'>
                 <div className='w-full text-[16px] md:text-[24px] lg:text-[24px]'>
                     <span className='w-[180px] text-[#68e0cf] font-bold uppercase inline-block'>AGE:</span>
-                    <span className='text-[#ffffff] font-bold'>26</span>
+                    <span className='text-[#ffffff] font-bold'>27</span>
                 </div>
                 <div className='w-full text-[16px] md:text-[24px] lg:text-[24px]`'>
                     <span className='w-[120px] md:w-[180px] lg:w-[180px] text-[#68e0cf] font-bold uppercase inline-block'>PHONE:</span>

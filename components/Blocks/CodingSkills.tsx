@@ -69,7 +69,7 @@ const CodingSkills = () => {
                 <ul className='w-full text-[#68e0cf] pb-1'>
                     <li className='flex items-center'>
                         <span className='w-[5px] h-[5px] rounded-full bg-[#68e0cf] mr-2 inline-block'></span>
-                        <span className='text-[#ffffff] text-sm'>Продвинутый уровень</span>
+                        <span className='text-[#ffffff] text-sm'>Средний уровень</span>
                     </li>
                 </ul>
             </div>
@@ -120,6 +120,10 @@ const CodingSkills = () => {
                     <li className='flex items-center pb-1'>
                         <span className='w-[5px] h-[5px] rounded-full bg-[#68e0cf] mr-2 inline-block'></span>
                         <span className='text-[#ffffff] text-sm'>Pinia.js</span>
+                    </li>
+                    <li className='flex items-center pb-1'>
+                        <span className='w-[5px] h-[5px] rounded-full bg-[#68e0cf] mr-2 inline-block'></span>
+                        <span className='text-[#ffffff] text-sm'>Vuetify</span>
                     </li>
                 </ul>
             </div>

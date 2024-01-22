@@ -24,6 +24,17 @@ export const WorkExamples = [
     },
     {
         id: 2,
+        title: 'Mega clone with Nuxt3',
+        technology: 'Nuxt3, Pinia, Firebase, TypeScript, Clerk',
+        category: 'nuxt',
+        images: [
+            'https://res.cloudinary.com/dmsxzw5rd/image/upload/v1705926775/mega_hiclo0.png',
+        ],
+        description: '',
+        link: 'https://dapper-kheer-c43e85.netlify.app/storage',
+    },
+    {
+        id: 3,
         title: 'Pizza POS',
         technology: 'Next.js, Redux, Tailwind',
         category: 'react',
@@ -38,9 +49,9 @@ export const WorkExamples = [
         link: 'https://darling-ganache-c3978a.netlify.app/',
     },
     {
-        id: 3,
+        id: 4,
         title: 'Food POS',
-        technology: 'Nuxt 3, Shadcn, Typescript',
+        technology: 'Nuxt 3, Shadcn, TypeScript',
         category: 'nuxt',
         images: [
             'https://res.cloudinary.com/dmsxzw5rd/image/upload/v1704261895/food-pos_j6b22n.jpg',
@@ -50,9 +61,9 @@ export const WorkExamples = [
         link: 'https://glowing-cuchufli-cc78cf.netlify.app/',
     },
     {
-        id: 4,
+        id: 5,
         title: 'File Sharing App',
-        technology: 'Next.js, Firebase, Typescript, Clerk',
+        technology: 'Next.js, Firebase, TypeScript, Clerk',
         category: 'next',
         images: [
             'https://res.cloudinary.com/dmsxzw5rd/image/upload/v1704262160/kachalka-file-sharing-app.vercel.app__g5jv1b.png',
@@ -60,4 +71,49 @@ export const WorkExamples = [
         description: '',
         link: 'https://kachalka-file-sharing-app.vercel.app/',
     },
+    {
+        id: 6,
+        title: 'Google Drive clone',
+        technology: 'Next.js, Firebase, TypeScript, Clerk',
+        category: 'next',
+        images: [
+            'https://res.cloudinary.com/dmsxzw5rd/image/upload/v1704745898/google-drive-clone-with-next-14.vercel.app__hqtgp3.png',
+        ],
+        description: '',
+        link: 'https://google-drive-clone-with-next-14.vercel.app/',
+    },
+    {
+        id: 7,
+        title: 'Chat App',
+        technology: 'Next.js, TypeScript, Tailwind, Prisma, MongoDB, NextAuth',
+        category: 'next',
+        images: [
+            'https://res.cloudinary.com/dmsxzw5rd/image/upload/v1704746040/chat-app-with-next-js-13-tailwind-prisma-mongo-db-next-auth.vercel.app_conversations_ikumjz.png',
+        ],
+        description: '',
+        link: 'https://chat-app-with-next-js-13-tailwind-prisma-mongo-db-next-auth.vercel.app/conversations',
+    },
+    {
+        id: 8,
+        title: 'Vuetify Admin Panel',
+        technology: 'Vue 3, Vuetify TypeScript, Pinia',
+        category: 'vue',
+        images: [
+            'https://res.cloudinary.com/dmsxzw5rd/image/upload/v1704967556/classy-pavlova-e29328.netlify.app__1_upytc9.png',
+        ],
+        description: '',
+        link: 'https://vue3-admin-panel-with-vuetify-pinia-ts.vercel.app/',
+    },
+    {
+        id: 9,
+        title: 'Ecommerce with Vue 3',
+        technology: 'Vue 3, Vuetify, TypeScript, Vuex',
+        category: 'vue',
+        images: [
+            'https://res.cloudinary.com/dmsxzw5rd/image/upload/v1705827489/ecommerce_vue3_ed7u1c.jpg',
+        ],
+        description: '',
+        link: 'https://storied-peony-bd7664.netlify.app/',
+    },
+    
 ]

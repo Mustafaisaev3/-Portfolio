@@ -42,6 +42,7 @@ const Header = () => {
       lg:top-[40px]
       lg:left-[50px]
       lg:right-[50px] 
+      lg:rounded-[85px]
 
       ${activeMobileMenu ? 'h-screen bg-[#585d65]' : 'h-[80px]'}
     `}
