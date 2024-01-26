@@ -31,7 +31,7 @@ export const WorkExamples = [
             'https://res.cloudinary.com/dmsxzw5rd/image/upload/v1705926775/mega_hiclo0.png',
         ],
         description: '',
-        link: 'https://dapper-kheer-c43e85.netlify.app/storage',
+        link: 'https://mega-file-drive-clone-with-nuxt3.vercel.app/',
     },
     {
         id: 3,
